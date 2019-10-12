@@ -1,1 +1,11 @@
-export const ON_CLICK = 'ON_CLICK';
+export const ADD_NUMBER = 'ADD_NUMBER';
+export const ADD_ZERO = 'ADD_ZERO';
+export const ADD_DECIMAL = 'ADD_DECIMAL';
+export const CLEAR = 'CLEAR';
+export const ADD = 'ADD';
+export const SUBTRACT = 'SUBTRACT';
+export const MULTIPLY = 'MULTIPLY';
+export const DIVIDE = 'DIVIDE';
+export const PERCENT = 'PERCENT';
+export const NEGATIVE = 'NEGATIVE';
+export const EVALUATION = 'EVALUATION';

@@ -1,0 +1,30 @@
+@import "../../assets/scss/variables";
+
+.calculator {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $black;
+    &__keypad {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        &__input-keys {
+            width: 240px;
+            &__function-keys {
+                display: flex;
+            }
+        }
+        &__digit-keys {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
+            width: 240px;
+            background-color: $bgr-digit-key;
+        }
+    }
+    &__operator-keys{
+        display: flex;
+        flex-direction: column;
+    }
+}
